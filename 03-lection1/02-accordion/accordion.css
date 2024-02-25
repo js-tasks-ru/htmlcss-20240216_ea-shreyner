@@ -1,1 +1,35 @@
 /* Стилизация аккордеона */
+details {
+    width: 600px;
+    height: 20px;
+    outline: 2px solid var(--grey-3);
+    text-align: left;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+    border: 15px solid white;
+    
+    
+ 
+}
+details[open] {
+    width: 600px; 
+    height: 55px;
+    outline: 2px solid var(--grey-3);
+    text-align: left;
+    border-radius: 2px;
+    
+}
+
+summary::marker{display:none;} 
+summary {
+    display: inline-block;  
+}
+
+summary:after {  
+    content: "⇩";
+    margin-left: 450px;
+  }
+  details[open] > summary:after {
+    content: "⇧";
+  }
