@@ -22,3 +22,32 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+h1 {
+    color: #F8F9FA;
+    background-color: var(--red);
+    height: 15px;
+    padding: 25px;
+    margin: 0px;
+    
+}
+
+nav {
+    color: #F8F9FA;
+    background-color: orange;
+    height: 15px;
+    padding: 25px;
+}   
+
+article {
+    color: #F8F9FA;
+    background-color: #374FC7; 
+    border: 10px solid green;
+}
+
+footer {
+    color: #F8F9FA;
+    background-color: purple;   
+    height: 10px;
+    padding: 15px;
+}
