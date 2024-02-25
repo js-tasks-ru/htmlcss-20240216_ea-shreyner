@@ -1,1 +1,63 @@
 /* Стилизация кнопки */
+but1 {
+    width: 250px;
+    height: 30px;
+    background: var(--purple);
+    color: var(--white);
+    padding: 10px; 
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+but1_1 {
+    width: 250px;
+    height: 30px;
+    background: #9370DB;
+    color: var(--white);
+    padding: 10px; 
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+but2 {
+    width: 250px;
+    height: 30px;
+    background: var(--blue);
+    color: var(--white);
+    padding: 10px; 
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+but2_2 {
+    width: 250px;
+    height: 30px;
+    background: #B0C4DE;
+    color: var(--white);
+    padding: 10px; 
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+but3 {
+    width: 250px;
+    height: 30px;
+    background: var(--white);
+    color: var(--grey-4);
+    padding: 10px; 
+    border-radius: 10px;
+    outline: 1px solid var(--black);
+    display: inline-block;
+    text-align: center;
+}
+but3_3 {
+    width: 250px;
+    height: 30px;
+    background: var(--white);
+    color: var(--grey-3);
+    padding: 10px; 
+    border-radius: 10px;
+    outline: 1px solid var(--grey-3);
+    display: inline-block;
+    text-align: center;
+}
