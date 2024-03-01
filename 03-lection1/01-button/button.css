@@ -1,47 +1,68 @@
 /* Стилизация кнопки */
-but1 {
-    width: 250px;
-    height: 30px;
+.but--1 {
+    width: 189px;
+    height: 48px;
+    background: var(--blue-2);
+    color: var(--white);
+    padding: 10px; 
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.but--2 {
+    width: 189px;
+    height: 48px;
+    background: var(--blue-2);
+    opacity: 50%;
+    color: var(--white);
+    padding: 10px; 
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    cursor: not-allowed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 32px;
+    margin-bottom: 16px;
+}
+.but--3 {
+    width: 189px;
+    height: 48px;
     background: var(--purple);
     color: var(--white);
     padding: 10px; 
     border-radius: 10px;
     display: inline-block;
     text-align: center;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 32px;
+    margin-bottom: 16px;
 }
-but1_1 {
-    width: 250px;
-    height: 30px;
-    background: #9370DB;
+.but--4 {
+    width: 189px;
+    height: 48px;
+    background: var(--purple);
+    opacity: 50%;
     color: var(--white);
     padding: 10px; 
     border-radius: 10px;
     display: inline-block;
     text-align: center;
+    cursor: not-allowed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 32px;
+    margin-bottom: 16px;
 }
-but2 {
-    width: 250px;
-    height: 30px;
-    background: var(--blue);
-    color: var(--white);
-    padding: 10px; 
-    border-radius: 10px;
-    display: inline-block;
-    text-align: center;
-}
-but2_2 {
-    width: 250px;
-    height: 30px;
-    background: #B0C4DE;
-    color: var(--white);
-    padding: 10px; 
-    border-radius: 10px;
-    display: inline-block;
-    text-align: center;
-}
-but3 {
-    width: 250px;
-    height: 30px;
+.but--5 {
+    width: 189px;
+    height: 48px;
     background: var(--white);
     color: var(--grey-4);
     padding: 10px; 
@@ -49,15 +70,26 @@ but3 {
     outline: 1px solid var(--black);
     display: inline-block;
     text-align: center;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 32px;
+    margin-bottom: 16px;
 }
-but3_3 {
-    width: 250px;
-    height: 30px;
+.but--6 {
+    width: 189px;
+    height: 48px;
     background: var(--white);
+    opacity: 30%;
     color: var(--grey-3);
     padding: 10px; 
     border-radius: 10px;
     outline: 1px solid var(--grey-3);
     display: inline-block;
     text-align: center;
+    cursor: not-allowed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 32px;
+    margin-bottom: 16px;
 }
