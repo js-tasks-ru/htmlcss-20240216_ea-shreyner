@@ -1,21 +1,25 @@
 /* Стилизация аккордеона */
-details {
-    width: 730px;
-    height: 72px;
-    outline: 2px solid var(--grey-3);
+
+.accordion {
+    outline: 1px solid var(--grey-3);
     text-align: left;
     border-radius: 1px;
     cursor: pointer;
     margin: 2px;
-    border: 15px solid white;
-    
-    
- 
+    border: 1px solid var(--grey-3);
 }
+
+.title {
+    text-indent: 5px;
+}
+
+.hide {
+    text-indent: 5px;
+}
+
+
 details[open] {
-    width: 730px; 
-    height: 144px;
-    outline: 2px solid var(--grey-3);
+    
     text-align: left;
     border-radius: 2px;
     
@@ -26,12 +30,6 @@ summary {
     display: inline-block;  
 }
 
-/* .img-container {
-    background-image: url(C:\Lessons\htmlcss-20240216_ea-shreyner\assets\images\Vector.jpg);
-    width: 600px;
-    height: 400px;
-}    */
-
 summary:after {  
     
     content: "⇧";
@@ -39,4 +37,4 @@ summary:after {
   }
   details[open] > summary:after {
     content: "⇧";
-  }
+  } 
