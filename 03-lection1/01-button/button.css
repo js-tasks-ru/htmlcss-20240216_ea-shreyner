@@ -1,7 +1,8 @@
 /* Стилизация кнопки */
 .btn {
     user-select: none;
-    line-height: 48px;
+    line-height: 19px;
+    height: 48px;
     color: var(--white);
     padding-left: 15px;
     padding-right: 15px;
@@ -14,29 +15,29 @@
     border-radius: 8px;  
 }
 
-.btn__btn-primary {  
+.btn_primary {  
         background-color: var(--blue-2);
 }
 
-.btn__btn-primary--disabled {     
+.btn_primary:disabled {     
         background: var(--blue-2);
         opacity: 50%;
         cursor: not-allowed;
 }
 
-.btn__btn-secondary {
+.btn_secondary {
         background: var(--purple);
         cursor: default;
 }
 
 
-.btn__btn-secondary--disabled {
+.btn_secondary:disabled {
         background: var(--purple);
         opacity: 50%;
         cursor: not-allowed;
 }
 
-.btn__btn-alternate { 
+.btn_alternate { 
         background: var(--white);
         color: var(--grey-4); 
         cursor: default;
@@ -44,7 +45,7 @@
         border-color: black;
 }
 
-.btn__btn-alternate--disabled {
+.btn_alternate:disabled {
         background: var(--white);
         opacity: 30%;
         color: var(--grey-3);
