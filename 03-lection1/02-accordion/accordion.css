@@ -9,11 +9,9 @@
     padding-right: 48.69px;
     padding-top: 24px;
     padding-bottom: 24px;
-
 }
 
-.accordion__details[open] {
-    border-radius: 2px;
+.accordion__item[open] {
     padding-bottom: 32px;
 }
 
@@ -25,8 +23,14 @@
 }
 
 .accordion__content {
+    margin-top: 16px;
     font-family: Inter;
     font-size: 16px;
     line-height: 24px;
     color: var(--grey-4);
 }
+
+.accordion__item:last-child { 
+    margin-bottom: 0; 
+}
+
