@@ -1,5 +1,5 @@
 .histogram {
-    /* height: 100px;
+    /* height: 185px;
     width: 354px; */
     border: solid;
     border-width: 1px;
@@ -9,15 +9,14 @@
 }
 
 .histogram__up {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: 1fr 59px;
-    gap: 6px ;
-    padding-bottom: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 6px;
 }
 
 .histogram__title {
-    size: 16px;
+    font-size: 16px;
     line-height: 24px;
     font-family: Inter;
     opacity: 80%;
@@ -25,151 +24,149 @@
 }
 
 .histogram__link {
-    align-self: center;
-    justify-self: start;
+    margin-top: 3px;
     color: rgba(66, 99, 235, 1);
 }
 
 .histogram__amount {
-    size: 20px;
+    font-size: 20px;
     line-height: 26px;
     font-family: Inter;
     color: var(--black);
+    
 }
 
-.hisogram-down {
+.histogram__down {
+    padding: 39px 5px 0px 2px;
+    height: 50px;
+    width: 299px; 
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    
-    /* align-content: start;
-    grid-template-rows: repeat(1, 1fr);
-    grid-template-columns: repeat(30, 9px); */
-    grid-column-gap: 1px;
+    align-items: end;
+    justify-content: space-around;
+    gap: 1px;
 }
 
-.hisogram__rectangle {
-    /* justify-self: start; */
-    flex-basis: 9px;
+.histogram__rectangle {
+    width: 100%;
     height: 50px;
     background-color: rgba(66, 99, 235, 1);
+}
+
+.histogram__rectangle_1 {
     
-}
-
-.hisogram__rectangle__1 {
-    height: 70%;
-}
-
-.rectangle__2 {
-    height: 40%;
-}
-
-.rectangle__3 {
-    height: 80%;
-}
-
-.rectangle__4 {
-    height: 40%;
-}
-
-.rectangle__5 {
     height: 65%;
 }
 
-.rectangle__6 {
+.histogram__rectangle_2 {
+    height: 40%;
+}
+
+.histogram__rectangle_3 {
+    height: 80%;
+}
+
+.histogram__rectangle_4 {
+    height: 40%;
+}
+
+.histogram__rectangle_5 {
+    height: 65%;
+}
+
+.histogram__rectangle_6 {
 
     height: 75%;
 }
 
-.rectangle__7 {
+.histogram__rectangle_7 {
     height: 100%;
 }
 
-.rectangle__8 {
+.histogram__rectangle_8 {
     height: 25%;
 }
 
-.rectangle__9 {
+.histogram__rectangle_9 {
     height: 50%;
 }
 
-.rectangle__10 {
+.histogram__rectangle_10 {
     height: 60%;
 }
 
-.rectangle__11 {
+.histogram__rectangle_11 {
     height: 70%;
 }
 
-.rectangle__12 {
+.histogram__rectangle_12 {
     height: 25%;
 }
 
-.rectangle__13 {
+.histogram__rectangle_13 {
     height: 70%;
 }
 
-.rectangle__14 {
+.histogram__rectangle_14 {
     height: 25%;
 }
 
-.rectangle__15 {
+.histogram__rectangle_15 {
     height: 70%;
 }
 
-.rectangle__16 {
+.histogram__rectangle_16 {
     height: 60%;
 }
 
-.rectangle__17 {
+.histogram__rectangle_17 {
     height: 50%;
 }
 
-.rectangle__18 {
+.histogram__rectangle_18 {
     height: 40%;
 }
 
-.rectangle__19 {
+.histogram__rectangle_19 {
     height: 60%;
 }
 
-.rectangle__20 {
+.histogram__rectangle_20 {
     height: 55%;
 }
 
-.rectangle__21 {
+.histogram__rectangle_21 {
     height: 40%;
 }
 
-.rectangle__22 {
+.histogram__rectangle_22 {
     height: 25%;
 }
 
-.rectangle__23 {
+.histogram__rectangle_23 {
     height: 70%;
 }
 
-.rectangle__24 {
+.histogram__rectangle_24 {
     height: 66%;
 }
 
-.rectangle__25 {
+.histogram__rectangle_25 {
     height: 70%;
 }
 
-.rectangle__26 {
+.histogram__rectangle_26 {
     height: 60%;
 }
 
-.rectangle__27 {
+.histogram__rectangle_27 {
     height: 25%;
 }
 
-.rectangle__28 {
+.histogram__rectangle_28 {
     height: 70%;
 }
 
-.rectangle__29 {
+.histogram__rectangle_29 {
     height: 30%;
 }
