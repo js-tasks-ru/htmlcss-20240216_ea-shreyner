@@ -39,7 +39,6 @@
 .histogram__down {
     padding: 39px 5px 0px 2px;
     height: 50px;
-   
     display: flex;
     flex-direction: row;
     align-items: end;
@@ -48,7 +47,6 @@
 
 .histogram__rectangle {
     width: 100%;
-    height: 50px;
     background-color: rgba(66, 99, 235, 1);
 }
 
