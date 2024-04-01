@@ -1,0 +1,172 @@
+.histogram {
+    /* height: 185px;
+    width: 354px; */
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: var(--grey-3);
+    padding: 16px 24px 24px 24px;
+}
+
+.histogram__up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.histogram__title {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter;
+    opacity: 80%;
+    color: var(--black);
+}
+
+.histogram__link {
+    margin-top: 3px;
+    color: rgba(66, 99, 235, 1);
+}
+
+.histogram__amount {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: Inter;
+    color: var(--black);
+    
+}
+
+.histogram__down {
+    padding: 39px 5px 0px 2px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 1px;
+}
+
+.histogram__rectangle {
+    width: 100%;
+    background-color: rgba(66, 99, 235, 1);
+}
+
+.histogram__rectangle_1 {
+    height: 100%;
+}
+
+.histogram__rectangle_2 {
+    height: 40%;
+}
+
+.histogram__rectangle_3 {
+    height: 80%;
+}
+
+.histogram__rectangle_4 {
+    height: 40%;
+}
+
+.histogram__rectangle_5 {
+    height: 65%;
+}
+
+.histogram__rectangle_6 {
+
+    height: 75%;
+}
+
+.histogram__rectangle_7 {
+    height: 100%;
+}
+
+.histogram__rectangle_8 {
+    height: 25%;
+}
+
+.histogram__rectangle_9 {
+    height: 50%;
+}
+
+.histogram__rectangle_10 {
+    height: 60%;
+}
+
+.histogram__rectangle_11 {
+    height: 70%;
+}
+
+.histogram__rectangle_12 {
+    height: 25%;
+}
+
+.histogram__rectangle_13 {
+    height: 70%;
+}
+
+.histogram__rectangle_14 {
+    height: 25%;
+}
+
+.histogram__rectangle_15 {
+    height: 70%;
+}
+
+.histogram__rectangle_16 {
+    height: 60%;
+}
+
+.histogram__rectangle_17 {
+    height: 50%;
+}
+
+.histogram__rectangle_18 {
+    height: 40%;
+}
+
+.histogram__rectangle_19 {
+    height: 60%;
+}
+
+.histogram__rectangle_20 {
+    height: 55%;
+}
+
+.histogram__rectangle_21 {
+    height: 40%;
+}
+
+.histogram__rectangle_22 {
+    height: 25%;
+}
+
+.histogram__rectangle_23 {
+    height: 70%;
+}
+
+.histogram__rectangle_24 {
+    height: 66%;
+}
+
+.histogram__rectangle_25 {
+    height: 70%;
+}
+
+.histogram__rectangle_26 {
+    height: 60%;
+}
+
+.histogram__rectangle_27 {
+    height: 25%;
+}
+
+.histogram__rectangle_28 {
+    height: 70%;
+}
+
+.histogram__rectangle_29 {
+    height: 30%;
+}
+
+.histogram__rectangle_30 {
+    height: 50%;
+}
